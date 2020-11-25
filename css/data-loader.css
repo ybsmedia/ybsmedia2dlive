@@ -4,11 +4,11 @@
 
 /* Main color - Green */
 .primary .value, .main-data .value strong {
-	color: #4267B2;
+	color: #FF0000;
 }
 /* Header label color - Purple */
 .main-data .value span {
-	color: #6500F7;
+	color: #000000;
 }
 /* Text color - white */
 .tertiary img{
