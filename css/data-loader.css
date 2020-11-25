@@ -1,0 +1,269 @@
+/*
+ * COLOR SETTING
+ */
+
+/* Main color - Green */
+.primary .value, .main-data .value strong {
+	color: #4267B2;
+}
+/* Header label color - Purple */
+.main-data .value span {
+	color: #6500F7;
+}
+/* Text color - white */
+.tertiary img{
+	width:100%;
+}
+.secondary, .tertiary {
+	color: #FFFFFF;
+}
+/* Value color - yellow */
+.secondary .value strong, .tertiary .value strong {
+	color: #FFF000;
+}
+/* Tile shadowing */
+.secondary .tile, .tertiary .tile, #stock-history .tile {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*
+ * GENERAL STYLE
+ */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	/*width: 100%;
+	max-width: 330px;
+	min-width: 250px;
+	*/
+	margin: 0 auto;
+	padding: 15px;
+	text-align: center;
+}
+
+
+#stock-header {
+	display: none;
+}
+.main-data {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.main-data .value {
+	font-size: 0.875rem;
+	font-weight: 600;
+}
+.main-data .value span, .main-data .value strong {
+	display: block;
+}
+
+
+#stock-table {
+	
+}
+.primary {
+	width: 100%;
+	margin: 20px 0;
+}
+.primary .value {
+	font-size: 8rem;
+	font-weight: bold;
+}
+.primary .date {
+	font-style: italic;
+}
+
+.secondary {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.secondary .tile {
+	width: 46%;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.secondary .date {
+	background-color: #F44236;
+	padding: 20px 30px;
+	
+	font-size: 1.25em;
+	font-weight: bold;
+}
+.secondary .value {
+	background-color: #F44236;
+	margin-top: 5px;
+	padding: 15px 30px;
+}
+.secondary .value span {
+	display: block;
+
+	font-size: 1.25em;
+}
+.secondary .value strong {
+	display: block;
+	padding: 10px 0;
+
+	font-size: 2.275em;
+	font-weight: 800;
+}
+
+.tertiary {
+	text-align: center;
+}
+.tertiary .tile {
+	background-color: #F44236;
+	border-radius: 8px;
+	margin: 10px 0;
+	padding: 20px;
+}
+.tertiary ul {
+	list-style-type: none;
+}
+.tertiary li {
+	display: inline-block;
+	width: 32%;
+	vertical-align: middle;
+}
+.tertiary .date {
+	font-size: 1.375em;
+}
+.tertiary .value span {
+	display: block;
+	
+	font-size: 0.725em;
+	font-weight: 200;
+	color: #FFFFFF;
+}
+.tertiary .value strong {
+	display: block;
+	padding: 10px 0;
+	
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+
+/*
+ * History
+ */
+#stock-history .history-2d, #stock-history .history-3d {
+	margin: 10px 0;
+}
+#stock-history h4 {
+	font-size: 1.125em;
+	font-weight: 600;
+}
+
+#stock-history .history-2d .tile, #stock-history .history-3d .tile {
+	background-color: #F44236;
+	border-radius: 8px;
+	margin: 5px 0 20px;
+	padding: 10px;
+}
+#stock-history .history-2d .tile .row, #stock-history .history-3d .tile .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 0;
+}
+#stock-history .history-2d .tile .row div {
+	width: 32%;
+	width: 20%;
+	color: #FFFFFF;
+}
+#stock-history .history-2d .tile .row:nth-child(2) div:nth-child(n+2):nth-child(-n+5) {
+	font-weight: bold;
+	color: #FFF000;
+}
+#stock-history .history-2d .tile .row:nth-child(n+3):nth-child(-n+4) div:nth-child(n+2):nth-child(-n+5) {
+	font-weight: bold;
+	color: #6500F7;
+}
+
+#stock-history .history-3d .tile .row div {
+	width: 49%;
+	color: #FFFFFF;
+}
+#stock-history .history-3d .tile .row:nth-child(2) div {
+	font-weight: bold;
+}
+#stock-history .history-3d .tile .row:nth-child(2) div:nth-child(2) {
+	color: #FFF000;
+}
+
+#stock-table .value.scol-6
+{
+	padding:0px;
+	width:50% !important;
+	float:left;
+}
+#stock-table .value.scol-6 .wrapper
+{
+	padding-top: 15px;
+	padding-bottom:15px;
+	position: relative;
+}
+
+#stock-history .history-2d .tile .row div.col_yellow
+{
+	color: #FFF000;
+}
+#stock-history .history-2d .tile .row div.col_blue
+{
+	color: #6500F7;	
+}
+#stock-history .history-2d .tile .row div.bold
+{
+	font-weight:bold;
+}
+
+#stock-table .v_divider
+{
+	display: block;
+	height: 80%;
+    position: absolute;
+    border-right: 2px solid #fff;
+    top: 10%;
+    right: 0px;
+    color: #fff;
+    width: 100%;
+    z-index: 999;
+}
+
+#stock-table #data-value2_key, #stock-table #data-value3_key
+{
+	font-size:1.707em;
+	position: relative;
+	top: 4px;
+}
+/*#stock-table .secondary .tile
+{
+	background-color: #F44236;
+}*/
+#stock-table .bg-red
+{
+	background-color: #F44236;
+	border-top: 5px solid #fff;
+}
+#stock-table .cleft
+{
+	clear:left;
+}
+#stock-table .tertiary li
+{
+	width: 20%;
+}
+
+/*
+#stock-table .container
+{
+	max-width:450px;
+}*/
+
