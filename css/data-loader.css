@@ -74,7 +74,7 @@ body {
 	font-weight: bold;
 }
 .primary .date {
-	font-style: italic;
+	font-style: bold;
 }
 
 .secondary {
@@ -89,14 +89,14 @@ body {
 	overflow: hidden;
 }
 .secondary .date {
-	background-color: #F44236;
+	background-color: #FF0000;
 	padding: 20px 30px;
 	
 	font-size: 1.25em;
 	font-weight: bold;
 }
 .secondary .value {
-	background-color: #F44236;
+	background-color: #FF0000;
 	margin-top: 5px;
 	padding: 15px 30px;
 }
@@ -117,7 +117,7 @@ body {
 	text-align: center;
 }
 .tertiary .tile {
-	background-color: #F44236;
+	background-color: #FF0000;
 	border-radius: 8px;
 	margin: 10px 0;
 	padding: 20px;
