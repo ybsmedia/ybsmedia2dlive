@@ -11,7 +11,7 @@ user-select: none !important;
 
 /* Main color - Green */
 .primary .value, .main-data .value strong {
-	color: #FF0000;
+	color: #007FFF;
 }
 /* Header label color - Purple */
 .main-data .value span {
@@ -96,14 +96,14 @@ body {
 	overflow: hidden;
 }
 .secondary .date {
-	background-color: #FF0000;
+	background-color: #007FFF;
 	padding: 20px 30px;
 	
 	font-size: 1.25em;
 	font-weight: bold;
 }
 .secondary .value {
-	background-color: #FF0000;
+	background-color: #007FFF;
 	margin-top: 5px;
 	padding: 15px 30px;
 }
@@ -114,7 +114,7 @@ body {
 }
 .secondary .value strong {
 	display: block;
-	padding: 5px 0;
+	padding: 10px 0;
 
 	font-size: 2.275em;
 	font-weight: 800;
@@ -124,7 +124,7 @@ body {
 	text-align: center;
 }
 .tertiary .tile {
-	background-color: #FF0000;
+	background-color: #007FFF;
 	border-radius: 8px;
 	margin: 10px 0;
 	padding: 20px;
@@ -168,7 +168,7 @@ body {
 }
 
 #stock-history .history-2d .tile, #stock-history .history-3d .tile {
-	background-color: #F44236;
+	background-color: #007FFF;
 	border-radius: 8px;
 	margin: 5px 0 20px;
 	padding: 10px;
@@ -191,7 +191,7 @@ body {
 }
 #stock-history .history-2d .tile .row:nth-child(n+3):nth-child(-n+4) div:nth-child(n+2):nth-child(-n+5) {
 	font-weight: bold;
-	color: #6500F7;
+	color: #00FF00;
 }
 
 #stock-history .history-3d .tile .row div {
@@ -224,7 +224,7 @@ body {
 }
 #stock-history .history-2d .tile .row div.col_blue
 {
-	color: #6500F7;	
+	color: #00FF00;	
 }
 #stock-history .history-2d .tile .row div.bold
 {
@@ -256,7 +256,7 @@ body {
 }*/
 #stock-table .bg-red
 {
-	background-color: #F44236;
+	background-color: #007FFF;
 	border-top: 5px solid #fff;
 }
 #stock-table .cleft
